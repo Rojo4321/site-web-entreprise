@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contactez-nous</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contactez-nous</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+		  <li><a href="presentation entreprise.html">Présentation de l'entreprise</a></li>
+          <li><a href="Nos produits.html">Nos Produits</a></li>
+          <li><a href="Nos services.html">Nos Services</a></li>
+          <li><a href="Contactez-nous.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 class= "hey">Envoyez-nous un message en remplissant le formulaire ci-dessous! Nous vous répondrons rapidement! </h2>
+      <form action="traitement.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </main>
+    <footer>
+      <p class= "footer">Tous droits réservés © 2023 Rojo Fashion</p>
+    </footer>
+  </body>
+</html>
